@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>data/dt_pad1.png</file>
+        <file>data/dt_pad2.png</file>
+        <file>data/dt_pad3.png</file>
+        <file>data/dt_pad4.png</file>
+        <file>data/dt_pad5.png</file>
+        <file>data/dronentaxi-tausta.png</file>
+        <file>data/dronetaxi.png</file>
+        <file>data/dronetaxi-title.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,12 @@
+Source: dronetaxi
+Section: user/games
+Priority: optional
+Maintainer: Ville Ranki <ville.ranki@iki.fi>
+Build-Depends: debhelper (>= 5), libqt4-dev
+Standards-Version: 3.7.3
+
+Package: dronetaxi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, artoolkitplus, espeak, libsdl1.2
+Description: DroneTaxi game for ARDRone
+

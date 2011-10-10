@@ -1,0 +1,35 @@
+
+Hello 
+
+This is the Meego Summit Finland 2011 release of Meego Taxi. Theres' about 15 mins to deadline so
+here are quick instructions:
+
+BUILD
+
+You'll need:
+
+ - artoolkitplus (2.2)
+ - SDL
+ - ARDrone SDK 1.5 in home directory with Kate Alhola's patch applied.
+This one is the difficult one, as 1.5 is not available anymore and latest
+is 1.6. I haven't tested if 1.6 requires the patch. I don't think i have
+persmission to distribute the patched version.
+See qmake file for hints and good luck.
+
+Artoolkitplus and espeak have been packaged as meego rpm's and will be
+in repos shortly.
+
+RUN 
+
+ - you'll need espeak binary to get audio
+connect a PS3 gamepad via USB to control using it. We didn't get it to work on
+Meego but on Ubuntu laptop it works nicely.
+
+More official and cleaned up release will be done in some git or svn repo after summit, 
+so i ask you not to distribute this code yet too much.
+
+The code is originally based on Kate Alhola's mardrone (thanks!) and some references 
+to it may still be found.
+
+-- 16.04.2011 Ville Ranki <ville.ranki@iki.fi>
+
